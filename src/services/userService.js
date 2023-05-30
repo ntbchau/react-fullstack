@@ -8,4 +8,8 @@ const handleLoginApi = (userEmail, userPassword) => {
 const getAllUsers = (inputId) => {
     return axios.get(`http://localhost:8081/api/get-all-users?id=${inputId}`)
 }
-export { handleLoginApi, getAllUsers }
+
+const createNewUserService = (data) => {
+    return axios.post('http://localhost:8081/api/create-new-user', data)
+}
+export { handleLoginApi, getAllUsers, createNewUserService }
