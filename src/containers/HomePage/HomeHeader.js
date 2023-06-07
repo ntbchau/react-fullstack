@@ -22,24 +22,24 @@ class HomeHeader extends Component {
 
                             <div className='child-content'>
                                 <div className='child-header'><b><FormattedMessage id='homeheader.speciality' /></b></div>
-                                <div>Find a doctor by specialist</div>
+                                <div><FormattedMessage id='homeheader.find-doctor' /></div>
                             </div>
                             <div className='child-content'>
-                                <div className='child-header'><b>Health facilities</b></div>
-                                <div>Choose hospital clinic</div>
+                                <div className='child-header'><b><FormattedMessage id='homeheader.Health-facilities' /></b></div>
+                                <div><FormattedMessage id='homeheader.Choose-hospital-clinic' /></div>
                             </div>
                             <div className='child-content'>
-                                <div className='child-header'><b>Doctor</b></div>
-                                <div>Choose a good doctor</div>
+                                <div className='child-header'><b><FormattedMessage id='homeheader.Doctor' /></b></div>
+                                <div><FormattedMessage id='homeheader.Choose-a-good-doctor' /></div>
                             </div>
                             <div className='child-content'>
-                                <div className='child-header'><b>Checkup package</b></div>
-                                <div>General health check</div>
+                                <div className='child-header'><b><FormattedMessage id='homeheader.Checkup-package' /></b></div>
+                                <div><FormattedMessage id='homeheader.General-health-check' /></div>
                             </div>
 
                         </div>
                         <div className='right-content'>
-                            <div className='support'><i class="fas fa-question-circle "></i> Support</div>
+                            <div className='support'><i class="fas fa-question-circle "></i><FormattedMessage id='homeheader.support' /> </div>
                             <div className='language-vi'>VN</div>
                             <div className='language-en'>EN</div>
                         </div>
@@ -47,10 +47,10 @@ class HomeHeader extends Component {
                 </div>
                 <div className='home-header-banner'>
                     <div className='content-up'>
-                        <div className='title1'> Medical Platform
+                        <div className='title1'><FormattedMessage id='homeheader.Medical-Platform' />
 
                         </div>
-                        <div className='title2'> Comprehensive healthcare
+                        <div className='title2'><FormattedMessage id='homeheader.Comprehensive-healthcare' />
 
                         </div>
                         <div className='search'>
@@ -63,27 +63,27 @@ class HomeHeader extends Component {
                         <div className='option'>
                             <div className='option-child'>
                                 <div className='icon-child'><i className="fas fa-hospital-alt"></i></div>
-                                <div className='text-child'>Specialist Examination</div>
+                                <div className='text-child'><FormattedMessage id='homeheader.Specialist-Examination' /></div>
                             </div>
                             <div className='option-child'>
                                 <div className='icon-child'><i className="fas fa-mobile-alt"></i></div>
-                                <div className='text-child'>Remote Examination</div>
+                                <div className='text-child'><FormattedMessage id='homeheader.Remote-Examination' /></div>
                             </div>
                             <div className='option-child'>
                                 <div className='icon-child'><i className="fas fa-stethoscope"></i></div>
-                                <div className='text-child'>General Examination</div>
+                                <div className='text-child'><FormattedMessage id='homeheader.General-Examination' /></div>
                             </div>
                             <div className='option-child'>
                                 <div className='icon-child'><i className="fas fa-flask"></i></div>
-                                <div className='text-child'>Medical Test</div>
+                                <div className='text-child'><FormattedMessage id='homeheader.Medical-Test' /></div>
                             </div>
                             <div className='option-child'>
                                 <div className='icon-child'><i className="fas fa-user-md"></i></div>
-                                <div className='text-child'>Mental Health</div>
+                                <div className='text-child'><FormattedMessage id='homeheader.Mental-Health' /></div>
                             </div>
                             <div className='option-child'>
                                 <div className='icon-child'><i className="fas fa-briefcase-medical"></i></div>
-                                <div className='text-child'>Dental Examination</div>
+                                <div className='text-child'><FormattedMessage id='homeheader.Dental-Examination' /></div>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,22 @@
 {
     "homeheader": {
-        "speciality": "Medical specialty"
+        "speciality": "Medical specialty",
+        "find-doctor": "Find a doctor by specialist",
+        "Health-facilities": "Health facilities",
+        "Choose-hospital-clinic": "Choose hospital clinic",
+        "Doctor": "Doctor",
+        "Choose-a-good-doctor": "Choose a good doctor",
+        "Checkup-package": "Checkup package",
+        "General-health-check": "General health check",
+        "Medical-Platform": "Medical Platform",
+        "Comprehensive-healthcare": "Comprehensive healthcare",
+        "Specialist-Examination": "Specialist Examination",
+        "Remote-Examination": "Remote Examination",
+        "General-Examination": "General Examination",
+        "Medical-Test": "Medical Test",
+        "Mental-Health": "Mental Health",
+        "Dental-Examination": "Dental Examination",
+        "support": "Support"
     },
     "common": {
         "add": "Add",
