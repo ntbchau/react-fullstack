@@ -7,6 +7,7 @@ import { FormattedMessage } from 'react-intl';
 import { LANGUAGES } from '../../utils';
 import { changeLanguageApp } from '../../store/actions';
 
+
 class HomeHeader extends Component {
     handleClickLanguage = (language) => {
         this.props.changeLanguageAppRedux(language)
